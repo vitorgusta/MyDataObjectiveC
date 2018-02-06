@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.Nome.text = @"Meu nome é..";   
+    self.Idade.text = @"Minha idade é..";
 }
 
 
@@ -26,4 +27,8 @@
 }
 
 
+- (IBAction)btnChupa:(id)sender {
+    self.Nome.text = @"Meu Nome é Vitor";
+    self.Idade.text = @"Minha Idade é 21";
+}
 @end

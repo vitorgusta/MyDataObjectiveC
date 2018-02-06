@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *Nome;
 
+@property (weak, nonatomic) IBOutlet UILabel *Idade;
 
+- (IBAction)btnChupa:(id)sender;
 @end
 
